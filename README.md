@@ -1,116 +1,104 @@
-# 📊 Bank Customer Churn Analysis  | Power BI|
+# 📊 Bank Customer Churn Analysis Dashboard
 
-## 🚀 Project Overview
+## 📌 Project Overview
 
-This project focuses on analyzing customer churn in a retail banking environment. The goal is to identify key factors influencing customer attrition and provide actionable insights to improve customer retention.
+This project analyzes customer churn in the banking industry using Power BI. The objective is to identify customer segments with higher churn rates and provide actionable business insights through an interactive dashboard.
 
 ---
 
 ## 🎯 Business Problem
 
-Banks face significant revenue loss due to customer churn. However, identifying *why customers leave* and *who is at risk* is often unclear.
+Customer churn is a major challenge for banks because losing customers impacts long-term revenue and growth.
 
-This project helps:
+The objective of this project is to:
 
-* Identify high-risk customers
-* Understand churn drivers
-* Enable data-driven retention strategies
+- Analyze customer churn trends
+- Identify factors influencing customer exits
+- Build an interactive dashboard
+- Support data-driven customer retention strategies
+
+---
+
+## 🛠️ Tools Used
+
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
 
 ---
 
 ## 📂 Dataset
 
-* ~10,000 customer records
-* Multiple tables:
+The dataset contains information about approximately **10,000 bank customers**, including:
 
-  * Customer Information
-  * Credit Card Details
-  * Geography
-  * Churn Status
-
----
-
-## ⚙️ Tools & Technologies
-
-* SQL (Data Preparation & Transformation)
-* Power BI (Dashboard & Visualization)
-* DAX (KPI Calculations)
-
----
-
-## 🏗️ Data Modeling
-
-* Designed **Star Schema**
-
-  * Fact Table → Bank_Churn
-  * Dimension Tables → Customer, Geography, Gender
-* Improved query performance and simplified reporting
-
----
-
-## 📈 Key KPIs
-
-* Churn Rate
-* Customer Segmentation
-* Average Balance
-* Active vs Inactive Customers
+- Credit Score
+- Geography
+- Gender
+- Age
+- Tenure
+- Account Balance
+- Number of Products
+- Credit Card Status
+- Active Member Status
+- Estimated Salary
+- Customer Exit Status
 
 ---
 
 ## 📊 Dashboard Features
 
-* Interactive visuals (8–10 charts)
-* Filters:
+The dashboard includes:
 
-  * Region
-  * Gender
-  * Age Group
-* Drill-down analysis for customer segments
+- Customer Churn Overview
+- Customer Exit Trend
+- Credit Score Analysis
+- Active vs Inactive Customer Analysis
+- Credit Card Analysis
+- Gender-wise Analysis
+- Interactive Filters
+
+---
+
+## 📈 Key KPIs
+
+- Total Customers
+- Exited Customers
+- Retained Customers
+- Active Customers
+- Inactive Customers
+- Credit Card Holders
+- Non-Credit Card Holders
 
 ---
 
 ## 🔍 Key Insights
 
-* Inactive customers have **2.5x higher churn rate**
-* Customers with balance < 50K show **30% higher churn**
-* Customers with only 1 product have **~40% churn rate**
-* Younger customers (<40 age) are more likely to churn
+- Around 20% of customers exited the bank.
+- Inactive customers showed higher churn.
+- Customers with lower credit scores experienced higher churn.
+- Customer behavior varied across demographics and account characteristics.
 
 ---
 
-## 💡 Business Impact
+## 💼 Business Recommendations
 
-* Identified top high-risk customer segments
-* Reduced manual reporting effort by **~60%**
-* Enabled targeted retention strategies
-* Potential churn reduction of **15–20%**
-
----
-
-## 📌 Use Case
-
-This solution helps banks proactively identify customers at risk of leaving and take preventive actions such as personalized offers and engagement strategies.
+- Focus retention efforts on inactive customers.
+- Improve engagement programs for high-risk customer groups.
+- Monitor customer churn regularly using interactive dashboards.
+- Design targeted retention campaigns based on customer behavior.
 
 ---
 
-## 🔄 Future Improvements
+## 📚 Skills Demonstrated
 
-* Build ML model for churn prediction
-* Customer risk scoring system
-* Real-time dashboard integration
-
----
-
-## 📎 How to Use
-
-1. Load dataset  Power BI
-2. Apply transformations and data modeling
-3. Use dashboard to analyze churn trends
-
----
-
-## 🙌 Conclusion
-
-This project demonstrates how data analytics can drive business decisions by identifying customer behavior patterns and reducing churn.
+- Business Analysis
+- Data Cleaning (Power Query)
+- Data Modeling
+- DAX
+- KPI Development
+- Dashboard Design
+- Data Visualization
+- Business Storytelling
 
 ---
